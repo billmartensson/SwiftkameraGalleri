@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		ABE4EB3E2524A23D007EF933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB3D2524A23D007EF933 /* AppDelegate.swift */; };
 		ABE4EB402524A23D007EF933 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB3F2524A23D007EF933 /* SceneDelegate.swift */; };
-		ABE4EB422524A23D007EF933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB412524A23D007EF933 /* ViewController.swift */; };
 		ABE4EB452524A23D007EF933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE4EB432524A23D007EF933 /* Main.storyboard */; };
 		ABE4EB472524A23D007EF933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE4EB462524A23D007EF933 /* Assets.xcassets */; };
 		ABE4EB4A2524A23D007EF933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE4EB482524A23D007EF933 /* LaunchScreen.storyboard */; };
+		ABE4EB542524A2AF007EF933 /* CameraGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB532524A2AF007EF933 /* CameraGalleryViewController.swift */; };
+		ABE4EB592524A4CF007EF933 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB582524A4CF007EF933 /* CameraViewController.swift */; };
+		ABE4EB5C2524A4DB007EF933 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB5B2524A4DB007EF933 /* GalleryViewController.swift */; };
+		ABE4EB602524A9E1007EF933 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4EB5F2524A9E1007EF933 /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABE4EB3A2524A23D007EF933 /* KameraGalleriBilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KameraGalleriBilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE4EB3D2524A23D007EF933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE4EB3F2524A23D007EF933 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABE4EB412524A23D007EF933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABE4EB442524A23D007EF933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE4EB462524A23D007EF933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE4EB492524A23D007EF933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE4EB4B2524A23D007EF933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE4EB532524A2AF007EF933 /* CameraGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGalleryViewController.swift; sourceTree = "<group>"; };
+		ABE4EB582524A4CF007EF933 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		ABE4EB5B2524A4DB007EF933 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		ABE4EB5F2524A9E1007EF933 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				ABE4EB3D2524A23D007EF933 /* AppDelegate.swift */,
 				ABE4EB3F2524A23D007EF933 /* SceneDelegate.swift */,
-				ABE4EB412524A23D007EF933 /* ViewController.swift */,
+				ABE4EB532524A2AF007EF933 /* CameraGalleryViewController.swift */,
+				ABE4EB582524A4CF007EF933 /* CameraViewController.swift */,
+				ABE4EB5B2524A4DB007EF933 /* GalleryViewController.swift */,
 				ABE4EB432524A23D007EF933 /* Main.storyboard */,
 				ABE4EB462524A23D007EF933 /* Assets.xcassets */,
 				ABE4EB482524A23D007EF933 /* LaunchScreen.storyboard */,
 				ABE4EB4B2524A23D007EF933 /* Info.plist */,
+				ABE4EB5F2524A9E1007EF933 /* GalleryCollectionViewCell.swift */,
 			);
 			path = KameraGalleriBilder;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE4EB422524A23D007EF933 /* ViewController.swift in Sources */,
 				ABE4EB3E2524A23D007EF933 /* AppDelegate.swift in Sources */,
+				ABE4EB602524A9E1007EF933 /* GalleryCollectionViewCell.swift in Sources */,
+				ABE4EB592524A4CF007EF933 /* CameraViewController.swift in Sources */,
+				ABE4EB5C2524A4DB007EF933 /* GalleryViewController.swift in Sources */,
+				ABE4EB542524A2AF007EF933 /* CameraGalleryViewController.swift in Sources */,
 				ABE4EB402524A23D007EF933 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +299,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				INFOPLIST_FILE = KameraGalleriBilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.KameraGalleriBilder;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.KameraGalleriBilderx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +318,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				INFOPLIST_FILE = KameraGalleriBilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.KameraGalleriBilder;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.KameraGalleriBilderx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
